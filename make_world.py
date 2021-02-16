@@ -56,5 +56,6 @@ def make_world(path,index):
         f.write( 'RULE:"'+str(rules[i][0])+'":"'+str(global_states[rules[i][1]])+'"=>"'+str(rules[i][2])+'":"'+str(global_states[rules[i][3]])+'";\n' );    
     f.close();
 
+
 if __name__ == '__main__':
     make_world('.',1);        
