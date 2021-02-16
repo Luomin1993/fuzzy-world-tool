@@ -1,0 +1,13 @@
+WORLD_NAME:sam7;
+WORLD_SIZE:44;
+OBJ_NUM:5;
+OBJ:ID:"0";MODEL:"./models/agent.obj";MESH:"agent";POS:-1.5,0.75;TEMP:"TEMP_HIGH";MOVE:"NAVIGATION";
+OBJ:ID:"1";MODEL:"./models/chair.obj";MESH:"chair";POS:0.75,-1.5;TEMP:"TEMP_NORMAL";MOVE:"STOP";
+OBJ:ID:"2";MODEL:"./models/cow.obj";MESH:"cow";POS:0.0,0.5;TEMP:"TEMP_NORMAL";MOVE:"STOP";
+OBJ:ID:"3";MODEL:"./models/bed.obj";MESH:"bed";POS:0.0,-0.75;TEMP:"TEMP_HIGH";MOVE:"MOVE";
+OBJ:ID:"4";MODEL:"./models/horse.obj";MESH:"horse";POS:0,0.75;TEMP:"TEMP_NORMAL";MOVE:"STOP";
+RULE_NUM:4;
+RULE:"0":"MOVE"=>"2":"TEMP_HIGH";
+RULE:"0":"MOVE"=>"1":"STOP";
+RULE:"2":"STOP"=>"0":"MOVE";
+RULE:"2":"MOVE"=>"0":"TEMP_HIGH";

@@ -1,0 +1,55 @@
+#
+# bed2.mtl
+#
+
+newmtl bed
+illum 2
+Kd 0.800000 0.800000 0.800000
+Ka 0.200000 0.200000 0.200000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 1.000000
+
+newmtl couch
+illum 2
+Kd 0.555969 0.588949 0.662492
+Ka 0.000000 0.000000 0.000000
+Ks 0.027027 0.027027 0.027027
+Ke 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd D:\MyCode\polynomial-solver\box/C:/Documents and Settings/Jeremy.KIDSXP/Desktop/WoodFine0031_10_S.jpg
+
+newmtl matress
+illum 2
+Kd 0.640000 0.613997 0.511457
+Ka 0.000000 0.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd D:\MyCode\polynomial-solver\box/C:/Documents and Settings/Jeremy.KIDSXP/Desktop/WoodFine0031_10_S.jpg
+
+newmtl pillow
+illum 2
+Kd 0.464792 0.533202 0.640000
+Ka 0.000000 0.000000 0.000000
+Ks 0.027027 0.027027 0.027027
+Ke 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd D:\MyCode\polynomial-solver\box/C:/Documents and Settings/Jeremy.KIDSXP/Desktop/WoodFine0031_10_S.jpg
+
+newmtl sheet
+illum 2
+Kd 0.616166 0.597904 0.724877
+Ka 0.000000 0.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd D:\MyCode\polynomial-solver\box/C:/Documents and Settings/jeremy/My Documents/My Pictures/textures/wood/WoodFine0003_M.jpg
+
+newmtl structure
+illum 2
+Kd 0.310603 0.199290 0.044777
+Ka 0.000000 0.000000 0.000000
+Ks 0.101351 0.101351 0.101351
+Ke 0.000000 0.000000 0.000000
+Ns 1.000000
